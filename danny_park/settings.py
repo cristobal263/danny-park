@@ -51,7 +51,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'parking_system.wsgi:application'
+WSGI_APPLICATION = 'danny_park.wsgi.application'
 
 DATABASES = {
     'default': {
