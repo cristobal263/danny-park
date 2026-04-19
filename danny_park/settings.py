@@ -33,7 +33,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.ProtectionMiddleware',
 ]
 
-ROOT_URLCONF = 'parking_system.urls'
+ROOT_URLCONF = 'danny_park.urls'
 
 TEMPLATES = [
     {
