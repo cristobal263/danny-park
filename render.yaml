@@ -3,7 +3,7 @@ services:
     name: danny-park
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn parking_system.wsgi:application"
+    startCommand: "gunicorn danny_park.wsgi:application"
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.12
